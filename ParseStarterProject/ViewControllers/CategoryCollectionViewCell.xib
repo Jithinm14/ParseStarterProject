@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9052" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="136"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="136"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="14" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="aZZ-ik-Oha">
+                        <rect key="frame" x="4" y="0.0" width="92" height="91"/>
+                        <animations/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Juices" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfd-9y-JqA">
+                        <rect key="frame" x="8" y="95" width="84" height="41"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="kNk-0p-2UG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Zfd-9y-JqA" firstAttribute="top" secondItem="aZZ-ik-Oha" secondAttribute="bottom" constant="4" id="5sQ-ae-DO2"/>
+                <constraint firstItem="Zfd-9y-JqA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" id="Bl4-O8-BGc"/>
+                <constraint firstItem="Zfd-9y-JqA" firstAttribute="bottom" secondItem="gTV-IL-0wX" secondAttribute="bottomMargin" constant="8" id="CZU-tc-tsy"/>
+                <constraint firstItem="Zfd-9y-JqA" firstAttribute="centerX" secondItem="aZZ-ik-Oha" secondAttribute="centerX" id="EK9-7W-xoN"/>
+                <constraint firstAttribute="trailing" secondItem="aZZ-ik-Oha" secondAttribute="trailing" constant="4" id="FYb-hQ-OGB"/>
+                <constraint firstItem="aZZ-ik-Oha" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="JXd-oT-c2T"/>
+                <constraint firstItem="aZZ-ik-Oha" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tEb-6H-pH3"/>
+            </constraints>
+            <size key="customSize" width="100" height="137"/>
+            <connections>
+                <outlet property="categoryImage" destination="aZZ-ik-Oha" id="Dta-dJ-aTm"/>
+                <outlet property="categoryNameLabel" destination="Zfd-9y-JqA" id="3bO-Qs-hE9"/>
+            </connections>
+            <point key="canvasLocation" x="461" y="153"/>
+        </collectionViewCell>
+    </objects>
+</document>

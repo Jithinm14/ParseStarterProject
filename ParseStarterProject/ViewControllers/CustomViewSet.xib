@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9052" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="41"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hotel Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKl-mS-fUa">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="41"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.51764705882352935" blue="0.035294117647058823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="165" y="53.5"/>
+        </view>
+        <view tag="149" contentMode="scaleToFill" id="Rd0-DO-EjM" customClass="ItemDetailFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="306" height="525"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJl-gf-gVm">
+                    <rect key="frame" x="19" y="20" width="269" height="47"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="e8K-zM-mxc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gfhjg" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSl-9G-IDW">
+                    <rect key="frame" x="19" y="65" width="269" height="61"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hJl-gf-gVm" firstAttribute="top" secondItem="Rd0-DO-EjM" secondAttribute="top" constant="20" id="20k-iR-eQT"/>
+                <constraint firstAttribute="trailing" secondItem="hJl-gf-gVm" secondAttribute="trailing" constant="18" id="2Iu-W5-lVc"/>
+                <constraint firstItem="JSl-9G-IDW" firstAttribute="top" secondItem="Rd0-DO-EjM" secondAttribute="top" constant="65" id="QJ3-7I-zZz"/>
+                <constraint firstAttribute="bottom" secondItem="JSl-9G-IDW" secondAttribute="bottom" constant="399" id="TT2-52-s5c"/>
+                <constraint firstItem="JSl-9G-IDW" firstAttribute="leading" secondItem="Rd0-DO-EjM" secondAttribute="leading" constant="19" id="dTB-gh-z8Q"/>
+                <constraint firstAttribute="trailing" secondItem="JSl-9G-IDW" secondAttribute="trailing" constant="18" id="jcg-Qt-WjU"/>
+                <constraint firstItem="hJl-gf-gVm" firstAttribute="leading" secondItem="Rd0-DO-EjM" secondAttribute="leading" constant="19" id="xIz-ff-u4g"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="itemDescription" destination="JSl-9G-IDW" id="9t1-wg-i5g"/>
+                <outlet property="itemName" destination="hJl-gf-gVm" id="Cb8-V9-XLI"/>
+            </connections>
+            <point key="canvasLocation" x="592" y="116.5"/>
+        </view>
+    </objects>
+</document>

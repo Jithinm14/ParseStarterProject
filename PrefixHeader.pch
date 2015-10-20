@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ParseStarterProject
+//
+//  Created by Jithin M on 9/19/15.
+//
+//
+
+#ifndef ParseStarterProject_PrefixHeader_pch
+#define ParseStarterProject_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "HelperClass.h"
+#import "CoreDataManager.h"
+#import <Parse/Parse.h>
+#import "ProgressIndicator.h"
+#import "MasterSyncFromParse.h"
+
+#endif
