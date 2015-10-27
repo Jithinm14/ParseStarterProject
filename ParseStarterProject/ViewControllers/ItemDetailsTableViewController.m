@@ -87,13 +87,12 @@ static NSString *CellID = @"DetailCellIdentifier";
     }
     else{
         ItemDetailFooterView *secondCell = (ItemDetailFooterView *)[[[NSBundle mainBundle] loadNibNamed:@"CustomViewSet" owner:self options:nil] objectAtIndex:1];
-        [secondCell.itemDescription sizeToFit];
         secondCell.itemName.text = self.selcItem.itemName;
         secondCell.itemDescription.text = self.selcItem.itemDescription;
-        secondCell.itemDescription.lineBreakMode = NSLineBreakByWordWrapping;
-        secondCell.itemDescription.preferredMaxLayoutWidth = CGFLOAT_MAX;
-        [secondCell.itemDescription sizeToFit];
+        secondCell.itemName_AR.text = self.selcItem.itemArabicName;
+        secondCell.itemDescription_AR.text = self.selcItem.itemArabicDescription;
         return secondCell;
+        
     }
     
 }

@@ -50,11 +50,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "466539699.736166"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
             landmarkName = "-loadAndSaveItemDetailsImagesFromParse:"
             landmarkType = "5">
          </BreakpointContent>
@@ -62,15 +62,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "466718380.919846"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "233"
+            endingLineNumber = "233"
             landmarkName = "-finishedLoadingItemDetailImages:"
             landmarkType = "5">
          </BreakpointContent>
@@ -82,11 +82,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "466718380.919846"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
             landmarkName = "-finishedLoadingItemTileImages:"
             landmarkType = "5">
          </BreakpointContent>
@@ -94,15 +94,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "466718380.919846"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "231"
-            endingLineNumber = "231"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
             landmarkName = "-finishedLoadingCategoryImages:"
             landmarkType = "5">
          </BreakpointContent>
@@ -130,11 +130,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "466622881.75864"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
             landmarkName = "-loadAndSaveItemsImagesFromParse:"
             landmarkType = "5">
          </BreakpointContent>
@@ -142,15 +142,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "466622974.043673"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "169"
-            endingLineNumber = "169"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "-loadAndSaveCategoryImagesFromParse:"
             landmarkType = "5">
          </BreakpointContent>
@@ -162,11 +162,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
-            timestampString = "467038878.617918"
+            timestampString = "467282166.689945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "-loadAndSaveItemsImagesFromParse:"
             landmarkType = "5">
          </BreakpointContent>
@@ -210,7 +210,7 @@
                   moduleName = "HotelMenu"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jithinm/Documents/Programs/ParseStarterProject/ParseStarterProject/ServiceDataFetchers/ServiceDataFetcher.m"
-                  timestampString = "467039142.843854"
+                  timestampString = "467282939.314782"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -225,7 +225,7 @@
                   moduleName = "HotelMenu"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jithinm/Documents/Programs/ParseStarterProject/ParseStarterProject/ServiceDataFetchers/ServiceDataFetcher.m"
-                  timestampString = "467039142.844012"
+                  timestampString = "467282939.314969"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -240,7 +240,7 @@
                   moduleName = "HotelMenu"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jithinm/Documents/Programs/ParseStarterProject/ParseStarterProject/ServiceDataFetchers/ServiceDataFetcher.m"
-                  timestampString = "467039142.844166"
+                  timestampString = "467282939.315149"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -248,6 +248,54 @@
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
+            timestampString = "467280071.182601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-queryItemsListFromParse"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParseStarterProject/ServiceDataFetchers/MasterSyncFromParse.m"
+            timestampString = "467281316.19491"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "-saveItemsDataToCoreData:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParseStarterProject/ViewControllers/ItemsTableViewController.m"
+            timestampString = "467282939.268595"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

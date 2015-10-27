@@ -8,6 +8,8 @@
     <entity name="ItemsInCategory" representedClassName="ItemsInCategory" syncable="YES">
         <attribute name="categoryID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imageID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemArabicDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemArabicName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="itemDescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="itemObjID" optional="YES" attributeType="String" syncable="YES"/>

@@ -2,21 +2,14 @@
 //  ItemsInCategory.m
 //  ParseStarterProject
 //
-//  Created by Jithin M on 9/20/15.
+//  Created by Jithin M on 10/23/15.
 //
 //
 
 #import "ItemsInCategory.h"
 
-
 @implementation ItemsInCategory
 
-@dynamic itemObjID;
-@dynamic itemName;
-@dynamic itemPrice;
-@dynamic itemDescription;
-@dynamic categoryID;
-@dynamic tasteDescription;
-@dynamic imageID;
+// Insert code here to add functionality to your managed object subclass
 
 @end

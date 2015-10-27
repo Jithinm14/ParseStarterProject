@@ -19,6 +19,14 @@
 // #import <ParseCrashReporting/ParseCrashReporting.h>
 
 #import "HotelMenuAppDelegate.h"
+#import "IntroductionViewController.h"
+
+@interface HotelMenuAppDelegate ()
+
+@property (strong, nonatomic) UINavigationController *rootController;
+@property (strong, nonatomic) IntroductionViewController *introController;
+
+@end
 
 @implementation HotelMenuAppDelegate
 
@@ -54,9 +62,11 @@
 
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.categoryCollectionView = [[CategoriesCollectionViewController alloc] initWithNibName:NSStringFromClass([CategoriesCollectionViewController class]) bundle:[NSBundle mainBundle]];
-    UINavigationController *rootNavCtrl = [[UINavigationController alloc] initWithRootViewController:self.categoryCollectionView];
-    self.window.rootViewController = rootNavCtrl;
+    
+    self.introController = [[IntroductionViewController alloc] init];
+    self.introController.delegate = self;
+    self.rootController = [[UINavigationController alloc] initWithRootViewController:self.introController];
+    self.window.rootViewController = self.rootController;
     [self.window makeKeyAndVisible];
 
 //    if (application.applicationState != UIApplicationStateBackground) {
@@ -153,6 +163,16 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:18.0],NSFontAttributeName,[UIColor whiteColor],NSForegroundColorAttributeName, nil]];
+}
+
+#pragma mark - IntroEngControllerProtocol Methods.
+
+-(void)loadCategoriesListView{
+    self.introController = nil;
+    self.rootController = nil;
+    self.categoryCollectionView = [[CategoriesCollectionViewController alloc] initWithNibName:NSStringFromClass([CategoriesCollectionViewController class]) bundle:[NSBundle mainBundle]];
+    self.rootController = [[UINavigationController alloc] initWithRootViewController:self.categoryCollectionView];
+    self.window.rootViewController = self.rootController;
 }
 
 @end

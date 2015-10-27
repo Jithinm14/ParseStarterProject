@@ -14,6 +14,7 @@
 #import "ItemsTableViewController.h"
 #import "MasterSyncActivityViewController.h"
 #import "FoodCategory.h"
+#import "IntroductionViewController.h"
 
 @interface CategoriesCollectionViewController ()
 
@@ -43,7 +44,9 @@ static NSString * const ParseCategoryClassName = @"Categories";
     self.navigationItem.rightBarButtonItem = self.rightBarbuttonItem;
     self.categoryImageFolder = [HelperClass pathForFileInDocumentsDirectory:@"/HM_Images/CategoryImages"];
     // Do any additional setup after loading the view.
-    
+//    IntroductionViewController *introView = [[IntroductionViewController alloc] init];
+//    [introView setModalPresentationStyle:UIModalPresentationOverCurrentContext];
+//    [self presentViewController:introView animated:YES completion:nil];
 }
 
 -(void)viewWillAppear:(BOOL)animated{

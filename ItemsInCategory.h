@@ -2,22 +2,21 @@
 //  ItemsInCategory.h
 //  ParseStarterProject
 //
-//  Created by Jithin M on 9/20/15.
+//  Created by Jithin M on 10/23/15.
 //
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+NS_ASSUME_NONNULL_BEGIN
 
 @interface ItemsInCategory : NSManagedObject
 
-@property (nonatomic, retain) NSString * itemObjID;
-@property (nonatomic, retain) NSString * itemName;
-@property (nonatomic, retain) NSString * itemPrice;
-@property (nonatomic, retain) NSString * itemDescription;
-@property (nonatomic, retain) NSString * categoryID;
-@property (nonatomic, retain) NSString * tasteDescription;
-@property (nonatomic, retain) NSString * imageID;
+// Insert code here to declare functionality of your managed object subclass
 
 @end
+
+NS_ASSUME_NONNULL_END
+
+#import "ItemsInCategory+CoreDataProperties.h"

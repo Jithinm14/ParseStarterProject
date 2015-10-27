@@ -11,5 +11,7 @@
 @interface ItemDetailFooterView : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *itemName;
 @property (weak, nonatomic) IBOutlet UILabel *itemDescription;
+@property (weak, nonatomic) IBOutlet UILabel *itemName_AR;
+@property (weak, nonatomic) IBOutlet UILabel *itemDescription_AR;
 
 @end

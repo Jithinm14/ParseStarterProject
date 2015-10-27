@@ -127,6 +127,12 @@ static NSString * const ParseItemsClassName = @"Items";
         [dataArray enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
             ItemsInCategory *itemObj = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([ItemsInCategory class]) inManagedObjectContext:context];
             PFObject *dataObject = obj;
+            NSString* newStr1 = [dataObject objectForKey:@"itemNameArabic"];
+//            NSString* newStr1 = [[NSString alloc] initWithData:arabicText1 encoding:NSUTF8StringEncoding];
+            NSString* newStr2 = [dataObject objectForKey:@"itemDescArabic"];
+//            NSString* newStr2 = [[NSString alloc] initWithData:darabicText2 encoding:NSUTF8StringEncoding];
+            itemObj.itemArabicName = newStr1;
+            itemObj.itemArabicDescription = newStr2;
             itemObj.itemObjID = dataObject.objectId;
             itemObj.itemName = [dataObject objectForKey:@"item_name"];
             itemObj.itemPrice = [dataObject objectForKey:@"item_price"];
@@ -211,13 +217,13 @@ static NSString * const ParseItemsClassName = @"Items";
     [[ServiceDataFetcher dataFetcher] clearImageCacheInDirectory:@"/HM_Images/ItemsDetailImages"];
     PFObject *testObj = [dataArray objectAtIndex:0];
     PFFile *testFile = [testObj objectForKey:@"detailImage"];
-    [[ServiceDataFetcher dataFetcher] loadItemDetailImageFile:testFile numberOfFilesToload:1 withObjectId:testObj.objectId];
-//    for (PFObject *pfObject in dataArray) {
-//        PFFile *itemDetailImageFile = [pfObject objectForKey:@"detailImage"];
-//        if (itemDetailImageFile) {
-//            [[ServiceDataFetcher dataFetcher] loadItemDetailImageFile:itemDetailImageFile numberOfFilesToload:numberOfObjectsToLoad withObjectId:pfObject.objectId];
-//        }
-//    }
+    [[ServiceDataFetcher dataFetcher] loadItemDetailImageFile:testFile numberOfFilesToload:numberOfObjectsToLoad withObjectId:testObj.objectId];
+    for (PFObject *pfObject in dataArray) {
+        PFFile *itemDetailImageFile = [pfObject objectForKey:@"detailImage"];
+        if (itemDetailImageFile) {
+            [[ServiceDataFetcher dataFetcher] loadItemDetailImageFile:itemDetailImageFile numberOfFilesToload:numberOfObjectsToLoad withObjectId:pfObject.objectId];
+        }
+    }
 }
 
 -(void)finishedLoadingItemTileImages:(NSNotification *)notif{

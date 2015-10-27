@@ -9,8 +9,9 @@
 
 #import <Foundation/Foundation.h>
 #import "CategoriesCollectionViewController.h"
+#import "IntroEnglishViewController.h"
 
-@interface HotelMenuAppDelegate : NSObject <UIApplicationDelegate>
+@interface HotelMenuAppDelegate : NSObject <UIApplicationDelegate,IntroEngControllerProtocol>
 
 @property (nonatomic, strong) UIWindow *window;
 
