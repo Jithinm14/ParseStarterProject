@@ -1,16 +1,17 @@
 //
-//  ItemsTableViewCell.m
+//  LearningGitTableViewCell.m
 //  ParseStarterProject
 //
-//  Created by Jithin M on 9/19/15.
+//  Created by Jithin Mannenbeth on 04/04/16.
 //
 //
 
-#import "ItemsTableViewCell.h"
+#import "LearningGitTableViewCell.h"
 
-@implementation ItemsTableViewCell
+@implementation LearningGitTableViewCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     // Initialization code
 }
 
@@ -18,7 +19,6 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
-    //Learning git.
 }
 
 @end
