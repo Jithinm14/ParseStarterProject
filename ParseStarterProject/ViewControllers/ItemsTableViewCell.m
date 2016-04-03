@@ -18,7 +18,7 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
-    //Learning git.
-}
+
+    //Test git learning.
 
 @end
